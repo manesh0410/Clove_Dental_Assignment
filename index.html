@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Clove Dental</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-inner">
+      <div class="logo">clove :)<br/><span class="logo-sub">DENTAL</span></div>
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#types">Treatments</a></li>
+          <li><a href="#why">Why Clove</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#find">Find Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="btn btn-primary">
+          <img src="image/Book an appointment.png" class="logo-img" alt="notebook"/>
+          Book Appointment
+        </button>
+        <button class="btn btn-outline">
+          <img src="image/Vector.png" class="logo-img" alt="phone"/>
+          985-6589-510
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- mobile nav -->
+    <div class="mobile-nav" id="mobileNav" aria-hidden="true">
+      <ul>
+        <li><a href="#types">Treatments</a></li>
+        <li><a href="#why">Why Clove</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#find">Find Us</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-left">
+        <img src="image/doc-bg.png" alt="clinic" class="bg-img">
+        <img src="image/doc.png" alt="doctor" class="doctor-img">
+        <div class="info-box">
+          <h1>Painless Root Canal Treatment in Delhi</h1>
+          <p>Expert RCT. Zero Pain. Right Here in Delhi.</p>
+          <button class="btn btn-primary">Book Appointment</button>
+        </div>
+      </div>
+
+      <aside class="hero-form" aria-labelledby="form-heading">
+        <h2 id="form-heading">Get Expert Dental Guidance in Delhi</h2>
+        <p>Book your free consultation today and take the first step towards healthy, beautiful teeth.</p>
+
+        <form id="leadForm" class="form-vertical" novalidate>
+          <input type="text" name="name" placeholder="Name" required>
+          <input type="tel" name="phone" placeholder="Mobile Number" required>
+          <div class="captcha-row">
+            <input type="text" name="captcha" placeholder="Captcha" required>
+            <div class="cap-box">1514</div>
+          </div>
+
+          <label class="terms">
+            <input type="checkbox" id="agree" required>
+            I agree to Clove Dental’s Terms & Privacy Policy and consent to receive phone and SMS.
+          </label>
+
+          <button type="submit" class="btn btn-primary block">Book a Free Consultation</button>
+        </form>
+      </aside>
+    </div>
+  </section>
+
+  <!-- STATS MARQUEE -->
+<section class="stats-section-marquee">
+  <div class="marquee-wrap">
+    <div class="stats-track">
+
+      <div class="stat-item">
+        <img src="image/Clinics.png" class="slider-image" alt="clinics">
+        <div class="stat-number">600+</div>
+        <div class="stat-label">Clinics</div>
+      </div>
+
+      <div class="stat-item">
+        <img src="image/dentists.png" class="slider-image" alt="dentists">
+        <div class="stat-number">1300+</div>
+        <div class="stat-label">Dentists</div>
+      </div>
+
+      <div class="stat-item">
+        <img src="image/Happy Patients.png" class="slider-image" alt="patients">
+        <div class="stat-number">30 L+</div>
+        <div class="stat-label">Happy Patients</div>
+      </div>
+
+      <div class="stat-item">
+        <img src="image/ortho-cases.png" class="slider-image" alt="ortho">
+        <div class="stat-number">35K+</div>
+        <div class="stat-label">Ortho Cases</div>
+      </div>
+
+      <div class="stat-item">
+        <img src="image/Implant.png" class="slider-image" alt="implants">
+        <div class="stat-number">55K+</div>
+        <div class="stat-label">Implants</div>
+      </div>
+      
+      <!-- same duplicates continue -->
+       <div class="stat-item">
+        <img src="image/Clinics.png" class="slider-image" alt="clinics">
+        <div class="stat-number">600+</div>
+        <div class="stat-label">Clinics</div>
+      </div>
+
+      <div class="stat-item">
+        <img src="image/dentists.png" class="slider-image" alt="dentists">
+        <div class="stat-number">1300+</div>
+        <div class="stat-label">Dentists</div>
+      </div>
+
+      <div class="stat-item">
+        <img src="image/Happy Patients.png" class="slider-image" alt="patients">
+        <div class="stat-number">30 L+</div>
+        <div class="stat-label">Happy Patients</div>
+      </div>
+
+      <div class="stat-item">
+        <img src="image/ortho-cases.png" class="slider-image" alt="ortho">
+        <div class="stat-number">35K+</div>
+        <div class="stat-label">Ortho Cases</div>
+      </div>
+
+      <div class="stat-item">
+        <img src="image/Implant.png" class="slider-image" alt="implants">
+        <div class="stat-number">55K+</div>
+        <div class="stat-label">Implants</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- TYPES -->
+  <section id="types" class="section">
+    <div class="container">
+      <h2 class="section-title">Types of Root Canal Treatments</h2>
+      <p class="muted center">In a root canal, the dentist removes infected pulp, cleans the tooth, and fills it with special material.</p>
+
+      <div class="cards">
+        <article class="card">
+          <img src="image/root-canal.png" alt="">
+          <div class="card-content">
+            <h3>Root Canal Treatment</h3>
+            <p class="muted">Ideal for infected or damaged tooth</p>
+            <ul>
+              <li>Root Canal Treatment</li>
+              <li>Split RCT</li>
+              <li>Split RCT with rubber dam</li>
+              <li>Split RCT with laser</li>
+            </ul>
+            <div class="price">₹ 19,999</div>
+            <button class="btn btn-outline">Get Free Consultation</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="image/re-root-canal.png" alt="">
+          <div class="card-content">
+            <h3>Re-Root Canal Treatment</h3>
+            <p class="muted">Ideal for issues that persist or recur after an initial root canal treatment</p>
+            <ul>
+              <li>Re-RCT with rubber dam</li>
+              <li>Re-RCT laser specialist</li>
+              <li>e-RCT with retrieval of old RCT filling</li>
+            </ul>
+            <div class="price">₹ 19,999</div>
+            <button class="btn btn-outline">Get Free Consultation</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS / PATIENTS -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">What Our Patients Say</h2>
+      <p class="muted center">Real smiles, real stories. Here's what our patients love about our CLOVE Dental experience!</p>
+
+      <div class="patient-wrapper">
+        <button class="scroll-btn left" id="scrollLeft" aria-label="scroll left">‹</button>
+        <div class="patient-grid" id="patientGrid">
+          <!-- horizontal list of patient cards -->
+          <div class="patient-card">
+            <img src="image/subhman.gif" alt="">
+            <div class="patient-info">
+              <span class="name">Shubham</span><span class="clinic">Indore</span>
+              <span class="treatment tag">Aligners</span>
+            </div>
+          </div>
+          <div class="patient-card">
+            <img src="image/shubpreet.png" alt="">
+            <div class="patient-info">
+              <span class="name">Shupreet</span><span class="clinic">Indore</span>
+              <span class="treatment tag">RCT</span>
+            </div>
+          </div>
+
+          <div class="patient-card">
+            <img src="image/anita.png" alt="">
+            <div class="patient-info">
+              <span class="name">Anita</span><span class="clinic">Bangalore</span>
+              <span class="treatment tag">Laser</span>
+            </div>
+          </div>
+
+          <div class="patient-card">
+            <img src="image/aarti.png" alt="">
+            <div class="patient-info">
+              <span class="name">Aarti</span><span class="clinic">Indore</span>
+              <span class="treatment tag">Dentures</span>
+            </div>
+          </div>
+
+          <div class="patient-card">
+            <img src="image/aditya.png" alt="">
+            <div class="patient-info">
+              <span class="name">Aditya</span><span class="clinic">Indore</span>
+              <span class="treatment tag">Implant</span>
+            </div>
+          </div>
+
+          <div class="patient-card">
+            <img src="image/nikita.png" alt="">
+            <div class="patient-info">
+              <span class="name">Nikita</span><span class="clinic">Indore</span>
+              <span class="treatment tag">Aligners</span>
+            </div>
+          </div>
+        </div>
+        <button class="scroll-btn right" id="scrollRight" aria-label="scroll right">›</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US (accordion + image) -->
+  <section id="why" class="section why-choose-us">
+    <div class="container why-grid">
+      <div class="accordion-container" id="accordion">
+        <h2 class="section-title center">Why Choose Clove Dental</h2>
+        <p class="muted center">Clove Dental is India's Leading dental care brand with 600+ clinic nationwide</p>
+
+        <div class="accordion-item">
+          <button class="accordion-header" data-image="/image/uncompromised-safety.png">
+            <span>DORI - A.I. enabled Dental chair</span>
+            <span class="icon">+</span>
+          </button>
+          <div class="accordion-body">
+            <ul>
+              <li>Reducing the risk of cross-contamination</li>
+              <li>Rapidly analyze diagnostic images</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header" data-image="/image/assuriung-cleanliness.png">
+            <span>10x Safety and 4 steps sterilization process</span>
+            <span class="icon">+</span>
+          </button>
+          <div class="accordion-body">
+            <p>Strict sterilization ensures hygienic treatments for every patient.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header" data-image="/image/why-choose.png">
+            <span>Experienced and Certified Implantologist</span>
+            <span class="icon">+</span>
+          </button>
+          <div class="accordion-body">
+            <p>Highly trained specialists handling complex implant cases.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header" data-image="/image/root-canal.png">
+            <span>Updated with world class equipments</span>
+            <span class="icon">+</span>
+          </button>
+          <div class="accordion-body">
+            <p>Highly trained specialists handling complex implant cases.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header" data-image="/image/re-root-canal.png">
+            <span>Regular adults for safety protocols</span>
+            <span class="icon">+</span>
+          </button>
+          <div class="accordion-body">
+            <p>Highly trained specialists handling complex implant cases.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="why-image">
+        <img id="dynamicImage" src="image/why-choose.png" alt="Why image">
+      </div>
+    </div>
+  </section>
+
+  <!-- SAFETY CARDS -->
+  <section class="section safety-cards">
+    <div class="container">
+      <h2 class="section-title center">Safety, Precision, and Innovation</h2>
+      <p class="muted center">Advanced care with top safety, sterilization, and technology</p>
+
+      <div class="feature-cards-grid">
+        <div class="feature-card">
+          <img src="image/uncompromised-safety.png" alt="">
+          <div class="card-box">
+            <h4>Uncompromised Safety</h4>
+            <p>10X Safety Protocols for a secure and worry-free dental experience.</p>
+            <a href="#" class="learn-more">Learn More →</a>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <img src="image/assuriung-cleanliness.png" alt="">
+          <div class="card-box">
+            <h4>Assuring Cleanliness</h4>
+            <p>Rigid 4-Step Sterilization process, assuring a safe a spotless clinic.</p>
+            <a href="#" class="learn-more">Learn More →</a>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <img src="image/aips.png" alt="">
+          <div class="card-box">
+            <h4>Experience AIPS</h4>
+            <p>Our AI-Powered Sterilization Monitoring system from DORI, USA.</p>
+            <a href="#" class="learn-more">Learn More →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- FINAL CTA / PLANS & FAQ -->
+<section class="section final-ui-section">
+  <div class="container forms-and-plans-grid">
+    <!-- Left: Expert guidance form -->
+    <div class="guidance-form-card">
+      <h3>Expert Guidance for Healthy Smiles</h3>
+      <p>Book your free consultation today and take the first step towards healthy, beautiful teeth.</p>
+
+      <form id="miniForm" class="expert-form" novalidate>
+        <input type="text" placeholder="Name" required>
+        <input type="tel" placeholder="Mobile Number" required>
+
+        <label class="small-terms">
+          <input type="checkbox" required>
+          I agree to CLOVE Dental’s Terms and Privacy Policy and consent to contact via phone, email, or SMS.
+        </label>
+
+        <button class="btn btn-primary block">Book a Free Consultation</button>
+      </form>
+    </div>
+
+    <!-- Right: Plan card + image -->
+    <div class="plans-container">
+      <img src="image/plan.png" alt="Dental Membership Plan" class="membership-card-image">
+
+      <div class="health-plan-card">
+        <h3>Dental Health Plan - Anniversary Plan</h3>
+        <ul>
+          <li>₹1,700 treatment voucher redeemable against any dental procedure.</li>
+          <li>₹1,000 additional voucher for any treatment (only one voucher per bill).</li>
+          <li>Unlimited dental consultations and 2D X-rays for an entire year.</li>
+        </ul>
+
+        <div class="special-offer">
+          <div>
+            <div class="label-small">Special Offer</div>
+            <div class="price-row">
+              <span class="new-price">₹399</span>
+              <span class="old-price">₹5100</span>
+            </div>
+          </div>
+          <button class="btn btn-outline">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- FAQ -->
+<section class="faq-section">
+  <div class="container">
+    <h2 class="section-title">Frequently Asked Questions</h2>
+
+    <div class="faq-grid">
+      <div class="faq-column">
+        <button class="faq-item">
+          <span class="question-text">Can i choose the dentist on my own for treatment ?</span>
+          <span class="plus">+</span>
+        </button>
+        <button class="faq-item">
+          <span class="question-text">Will i get the same doctor each time i visit the same clinic ?</span>
+          <span class="plus">+</span>
+        </button>
+        <button class="faq-item">
+          <span class="question-text">How you are able to provide less prices than other dental brands ?</span>
+          <span class="plus">+</span>
+        </button>
+        <button class="faq-item">
+          <span class="question-text">How you are able to provide less prices than other dental brands ?</span>
+          <span class="plus">+</span>
+        </button>
+      </div>
+
+      <div class="faq-column">
+        <button class="faq-item">
+          <span class="question-text">What are your dental clinic timings?</span>
+          <span class="plus">+</span>
+        </button>
+        <button class="faq-item">
+          <span class="question-text">How can I book an appointment?</span>
+          <span class="plus">+</span>
+        </button>
+        <button class="faq-item">
+          <span class="question-text">How frequently should I visit a dentist?</span>
+          <span class="plus">+</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div>
+        <div class="footer-logo">Clove <span class="smile">:)</span><br /><span class="dental">DENTAL</span></div>
+        <p class="copyright-text">All Rights Reserved - 2024. Clove Dental.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Accessibility</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
