@@ -1,93 +1,124 @@
-🚀 Features
-✅ Fully Responsive Layout
+# Clove Dental — Assignment Submission
 
-The entire UI scales smoothly across desktop, tablet, and mobile screens using media queries.
+A clean, responsive landing page built from the provided Figma design using **only HTML, CSS, and vanilla JavaScript**. This project implements the required UI sections and interactions while following the assignment rules (no frameworks).
 
-✅ Hero Section
+---
 
-Background clinic image
+## Live Demo
 
-Doctor overlay image (responsive positioning)
+**[https://clove-dental-assignment.vercel.app/](https://clove-dental-assignment.vercel.app/)**
 
-Floating info box aligned to doctor image
+---
 
-Clean Figtree typography
+## What I built
 
-Book Appointment button
+I implemented a pixel‑accurate, responsive landing page that includes the following sections (you can replace images with exported Figma assets in the `images/` folder):
 
-✅ Navbar
+* Navigation bar with action buttons and mobile menu
+* Hero section with clinic background, responsive doctor image and floating info box
+* Stats marquee (infinite-scroll) with icons + numbers + labels in one row
+* Treatments / Cards section
+* Patient testimonials / horizontal gallery
+* Why‑choose us accordion with dynamic image swap
+* Safety / feature cards and Google Reviews section
+* Find‑us cities grid and membership CTA
+* FAQ accordion and footer
 
-Logo
+> Note: You only need any 6 sections for the assignment — I provided more so you can pick the best ones for submission.
 
-Buttons with icons
+---
 
-Mobile-friendly alignment
+## Key Features
 
-Clean spacing & minimalistic styling
+* **Vanilla HTML/CSS/JS only** — no React, Tailwind, Bootstrap, or other libraries
+* **Responsive design** with carefully chosen breakpoints for mobile/tablet/desktop
+* **Interactive components**: mobile menu, marquee pause, patient carousel scroll buttons, accordions, smooth anchors, form submission simulations
+* **Accessible basics**: semantic sections, `alt` attributes for images, keyboard-friendly toggles
+* **Ready to deploy**: works with GitHub Pages, Vercel, or Netlify
 
-✅ Stats Marquee Slider
+---
 
-Auto-scrolling infinite loop
+## Project structure
 
-Clinic stats (Clinics, Dentists, Patients, etc.)
+```
+my-landing-page/
+├── index.html          # Main page
+├── css/
+│   └── style.css      # All styles
+├── js/
+│   └── script.js      # All interactions
+├── images/            # Exported Figma assets (place your PNG/SVGs here)
+└── README.md          # This file
+```
 
-Icons with number + label
+---
 
-Smooth CSS animation
+## How to run locally
 
-✅ Reusable Components
+1. Clone the repo:
 
-Buttons, cards, images, and text blocks are styled with utility classes.
+```bash
+git clone <your-repo-url>
+cd my-landing-page
+```
 
-✅ Figma-accurate UI
+2. Open `index.html` in a browser (double-click or `right click → Open With → Chrome`).
 
-All spacing, sizing, and layout closely match the provided Figma screens.
+> No build step or npm install required — this is plain HTML/CSS/JS.
 
-🛠️ Technologies Used
+---
 
-HTML5
+## How to deploy (quick)
 
-CSS3 (Flexbox, Media Queries, Animations)
+### GitHub Pages
 
-JavaScript (for interactions if needed)
+1. Push the repo to GitHub.
+2. In repository settings → Pages, set source to `main` branch and folder `/ (root)`.
+3. Save — the site will be live at `https://<your-username>.github.io/<repo-name>/`.
 
-Google Fonts – Figtree
+### Vercel / Netlify
 
-Icons (PNG placeholders added)
+* Drag-and-drop the project folder into Vercel/Netlify or connect your GitHub repo and deploy. Both handle static HTML sites directly.
 
-📂 Folder Structure
-project-folder/
-│── index.html
-│── style.css
-│── script.js
-│── /image
-│     ├── doc.png
-│     ├── doc-bg.png
-│     ├── icons...
-│     ├── stats images...
+---
 
-📦 How to Run
+## Using Figma assets
 
-Download or clone the project folder.
+1. In Figma: select the image/frame → Export → PNG or SVG @2x.
+2. Move the downloaded file into the `/images` folder.
+3. Update the `src` in `<img>` tags if filenames differ.
 
-Open index.html in any browser.
+Tip: Don’t copy/paste from Figma — always export.
 
-No additional setup is required.
+---
 
-📸 Images
+## Notes & Tips I followed
 
-All images used in this project are placeholder PNGs added manually (from Figma → Export PNG).
+* Used CSS custom properties for easy theme adjustments
+* Kept buttons, cards and components reusable with utility-like classes
+* Ensured the marquee items display in a single row (image, number, label) as requested
+* Ensured the hero info-box aligns and scales beside the responsive doctor image
+* Added keyboard-friendly toggles and accessible `aria` attributes where helpful
 
-🧩 Customization
+---
 
-You can replace images by adding new PNGs inside the /image folder and updating the file paths in HTML:
+## Known improvements (optional extras)
 
-<img src="image/new-image.png" alt="example">
+* Replace placeholders with exact Figma exported images for pixel-perfect visuals
+* Add `srcset` for responsive images to optimize bandwidth
+* Add structured data / meta tags for SEO
+* Optimize images (compress) to reduce load time
 
-🤝 Contribution
+---
 
-Feel free to modify, extend UI sections, or improve responsiveness.
+## Final notes
 
-📞 Support
+If you want, I can:
 
-If you need help exporting images, fixing alignment, or making it 100% Figma-perfect, feel free to ask.
+* Replace placeholder images with the exported ones (send them or upload them into the `images/` folder)
+* Trim the page down to exactly 6 sections you plan to submit
+* Create a deploy-ready ZIP with correct filenames and README screenshots
+
+---
+
+Thank you — tell me how you want the final submission packaged (which 6 sections to include or if you want the full page).
